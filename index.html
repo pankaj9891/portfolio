@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h3 class="logo"><a href="#home">Portfolio</a></h3>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="menu-btn" onclick=openMenu()><i class="fa-solid fa-bars-staggered"></i></li>
+        </ul>
+    </nav>
+    <div class="mobile-nav" id="mobile-nav">
+        <span onclick=closeMenu()><i class="fa-solid fa-xmark"></i></span>
+        <ul>
+            <li><a href="#home" onclick=closeMenu()>Home</a></li>
+            <li><a href="#about" onclick=closeMenu()>About</a></li>
+            <li><a href="#project" onclick=closeMenu()>Projects</a></li>
+            <li><a href="#contact" onclick=closeMenu()>Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="content">
+                <div class="home-main">
+                    <div class="home-text">
+                        <h1>Front-End React Developer</h1>
+                        <img src="https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png"
+                            alt="waving_hand">
+                        <p>Hi, I'm Pankaj Kumar. A passionate Front-end React Developer based in Delhi. 📍</p>
+                        <span><a href="www.linkedin.com/in/pankaj-kumar-062393257"><i class="fa-brands fa-linkedin"></i></a><a href="https://github.com/pankaj9891"><i
+                                    class="fa-brands fa-github"></i></a></span>
+                    </div>
+                    <div class="home-img"></div>
+                </div>
+                <div class="skills">
+                    <p>Tech Stack</p>
+                    <div class="logos">
+                        <ul>
+                            <li><img src="https://stefantopalovicdev.vercel.app/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg"
+                                    alt="HTML" title="HTML5"></li>
+                            <li><img src="https://stefantopalovicdev.vercel.app/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg"
+                                    alt="CSS" title="CSS3"></li>
+                            <li><img src="	https://stefantopalovicdev.vercel.app/static/media/javascript.de4c2594613e34b15666206bbede7327.svg"
+                                    alt="JS" title="javascript"></li>
+                            <li><img src="https://stefantopalovicdev.vercel.app/static/media/react.afac9c43724070bf6674f2692b7356a9.svg"
+                                    alt="react" title="React JS"></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+                                    alt="bootstrap" title="Bootstrap"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg"
+                                    alt="jquery" title="Jquery"></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="img-side">
+                    <img src="https://stefantopalovicdev.vercel.app/static/media/working-emoji.c5325f52b5be329995a5.png"
+                        alt="emoji" class="work-emoji">
+                    <img src="https://stefantopalovicdev.vercel.app/static/media/about-img.62b47e7f183d4b4e9feb.webp"
+                        alt="image" class="img-side__main-img">
+                    <span>
+                        <img src="https://stefantopalovicdev.vercel.app/static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg"
+                            alt="text">
+                    </span>
+                </div>
+                <div class="text-side">
+                    <h4>ABOUT ME</h4>
+                    <h3>
+                        A dedicated Front-end Developer <br>
+                        based in Delhi 📍
+                    </h3>
+                    <p>As a Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript,
+                        React, Bootstrap, and Jquery. I excel in designing and maintaining responsive websites that
+                        offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces
+                        through writing clean and optimized code and utilizing cutting-edge development tools and
+                        techniques. I am also a team player who thrives in collaborating with cross-functional teams to
+                        produce outstanding web applications.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="container">
+            <h2 class="new_projects">New projects coming soon.. 🤠</h2>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact_content">
+                <div class="contact_title">
+                    <p>contact</p>
+                    <h3>Don't be shy! Hit me up! 👇</h3>
+                </div>
+                <div class="contact_icons">
+                    <div class="contact_icon-box">
+                        <span><i class="fa-solid fa-map-location-dot"></i></span>
+                        <div class="contact_info">
+                            <h3>Location</h3>
+                            <p>Badarpur, Delhi</p>
+                        </div>
+                    </div>
+                    <div class="contact_icon-box">
+                        <span><i class="fa-solid fa-envelope-open-text"></i></span>
+                        <div class="contact_info">
+                            <h3>Mail</h3>
+                            <a href="mailto:pankaj11001100@gmail.com">pankaj11001100@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer_content">
+                <h3>Copyright © 2023. All rights are reserved</h3>
+                <div class="footerc_social">
+                    <a href="www.linkedin.com/in/pankaj-kumar-062393257"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/pankaj9891"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
